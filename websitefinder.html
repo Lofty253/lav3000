@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Website Finder</title>
+	<link rel="stylesheet" , href="style.css">
+</head>
+<body>
+	<div style="background-color: #50d0ff " class="top">
+		<a href="index.html" class="nonhyper"><h1 style="color:#b2ebff">My Website!</h1></a>
+	</div>
+
+	<script>
+		const sites = ["neal.fun/infinite-craft", "neal.fun/password-game", "libraryofbabel.info", "sandboxels.r74n.com", "www.whatbeatsrock.com", "diep.io", "agar.io", "slither.io", "defly.io", "powerline.io", "vole.wtf"];
+		function find() {
+			randnum = Math.floor(Math.random() * sites.length);
+			window.location.href = "https://" + sites[randnum];
+		}
+	</script>
+
+	<h1>Website Finder</h1>
+
+	<p>Click this button to find a cool website!</p>
+	<button type="button" onclick="find()">Click Me!</button>
+</body>
+</html>
