@@ -64,3 +64,13 @@ button:hover {
 	width: 100%;
 	margin-top: -1.5vw;
 }
+
+.gif {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gif img{
+	width: 200px;
+	height: 200px;
+}
