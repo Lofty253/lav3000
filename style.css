@@ -74,3 +74,9 @@ button:hover {
 	width: 200px;
 	height: 200px;
 }
+
+.textinput {
+	font-family: body;
+	text-align: center;
+	font-size: 20px;
+}
